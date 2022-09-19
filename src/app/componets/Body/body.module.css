@@ -1,0 +1,10 @@
+.body {
+  margin: 1rem;
+  background-color: aliceblue;
+  width: 170px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+  
+}

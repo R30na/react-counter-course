@@ -1,9 +1,9 @@
-import Header from "./componets/Header";
-import Body from "./componets/Body";
-import Footer from "./componets/Footer";
+import Header from "./componets/Header/Header";
+import Body from "./componets/Body/Body";
+import Footer from "./componets/Footer/Footer";
 
 // import logo from './logo.svg';
-// import './App.css';
+import styles from "./App.module.css";
 
 // function App() {
 //   return (
@@ -30,10 +30,10 @@ import Footer from "./componets/Footer";
 
 const App = () => {
   return (
-    <div>
-      <Header />
+    <div className={styles.container}>
+      <Header title="My Header from props" />
       <Body />
-      <Footer />
+      <Footer title="My Footer from props" />
     </div>
   );
 };
